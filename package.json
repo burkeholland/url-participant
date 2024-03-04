@@ -1,8 +1,8 @@
 {
-    "name": "chat-sample",
-    "publisher": "vscode-samples",
-    "displayName": "Copilot Chat Sample",
-    "description": "Sample chat extension, a trusty cat tutor that will can teach you computer science topics.",
+    "name": "url-context",
+    "publisher": "Burke Holland",
+    "displayName": "URL Context Variable",
+    "description": "URL context variable for GitHub Copilot",
     "repository": {
         "type": "git",
         "url": "https://github.com/Microsoft/vscode-extension-samples"
@@ -47,8 +47,12 @@
         "typescript": "^4.0.3"
     },
     "dependencies": {
+        "@langchain/openai": "^0.0.15",
         "@mozilla/readability": "^0.5.0",
         "@types/jsdom": "^21.1.6",
-        "jsdom": "^24.0.0"
+        "dotenv": "^16.4.5",
+        "jsdom": "^24.0.0",
+        "langchain": "^0.1.25",
+        "os": "^0.1.2"
     }
 }
